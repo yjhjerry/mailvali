@@ -7,8 +7,8 @@ api_key_private  = ""
 api_entry_public = "https://api.mailgun.net/v3/address/validate"
 api_entry_private= "https://api.mailgun.net/v3/address/private/validate"
 
-list_file   ="./list_check4.txt"
-result_file ="./list_check4.result"
+list_file   = "./list_check4.txt"
+result_file = "./list_check4.result"
 
 def main():
 	with open(list_file) as f:
