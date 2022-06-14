@@ -30,8 +30,8 @@ def main():
 			output_file.write(email_string)
 
 def get_validate(em):
-		r=requests.get(api_entry_private, auth=("api", api_key_private), params={"address": em})
-		return r.json()
+	r=requests.get(api_entry_private, auth=("api", api_key_private), params={"address": em})
+	return r.json()
 
 if __name__ == '__main__':
 	main()
